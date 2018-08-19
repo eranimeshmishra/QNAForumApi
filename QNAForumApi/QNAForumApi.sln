@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QNAForumApi", "QNAForumApi\QNAForumApi.csproj", "{83F7AE21-16B8-4304-9183-2D0DCD4C29D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QNAForum.Business", "QNAForum.Business\QNAForum.Business.csproj", "{BB1E55BC-C69C-4943-AFC4-093AA9946E33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QNAForum.Data", "QNAForum.Data\QNAForum.Data.csproj", "{CDC999A9-668B-4A59-A57D-C9CC663CC785}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QNAForum.Core", "QNAForum.Core\QNAForum.Core.csproj", "{6EB6B2F9-8919-41CF-A4F0-7419A72B406A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83F7AE21-16B8-4304-9183-2D0DCD4C29D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83F7AE21-16B8-4304-9183-2D0DCD4C29D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83F7AE21-16B8-4304-9183-2D0DCD4C29D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83F7AE21-16B8-4304-9183-2D0DCD4C29D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB1E55BC-C69C-4943-AFC4-093AA9946E33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB1E55BC-C69C-4943-AFC4-093AA9946E33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB1E55BC-C69C-4943-AFC4-093AA9946E33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB1E55BC-C69C-4943-AFC4-093AA9946E33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDC999A9-668B-4A59-A57D-C9CC663CC785}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDC999A9-668B-4A59-A57D-C9CC663CC785}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDC999A9-668B-4A59-A57D-C9CC663CC785}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDC999A9-668B-4A59-A57D-C9CC663CC785}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EB6B2F9-8919-41CF-A4F0-7419A72B406A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EB6B2F9-8919-41CF-A4F0-7419A72B406A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EB6B2F9-8919-41CF-A4F0-7419A72B406A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EB6B2F9-8919-41CF-A4F0-7419A72B406A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B72E3855-B879-4E55-B176-E2A962E4DF5E}
+	EndGlobalSection
+EndGlobal
