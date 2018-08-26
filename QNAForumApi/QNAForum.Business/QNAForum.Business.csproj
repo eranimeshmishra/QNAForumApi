@@ -40,11 +40,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ITestInterface.cs" />
+    <Compile Include="IQuestionService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TestClass.cs" />
+    <Compile Include="QuestionService.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\QNAForum.Core\QNAForum.Core.csproj">
+      <Project>{6eb6b2f9-8919-41cf-a4f0-7419a72b406a}</Project>
+      <Name>QNAForum.Core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\QNAForum.Data\QNAForum.Data.csproj">
       <Project>{cdc999a9-668b-4a59-a57d-c9cc663cc785}</Project>
       <Name>QNAForum.Data</Name>

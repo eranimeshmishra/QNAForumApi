@@ -14,18 +14,22 @@ namespace QNAForumApi.Controllers
 {
     public class ValuesController : ApiController
     {
-        private ITestInterface _testClass;
+        private IQuestionService _questionService;
         private ILogger _logger;
 
-        public ValuesController(ITestInterface testClass, ILogger logger)
+        public ValuesController(IQuestionService questionService, ILogger logger)
         {
-            _testClass = testClass;
+            _questionService = questionService;
             _logger = logger;
         }
         // GET api/values
         public IEnumerable<string> Get()
         {
-            return new string[] { _testClass.TestMethod(), "value2" };
+            var questions = _questionService.FindAllQuestions();
+            foreach (var question in questions)
+            {
+                yield return question.QuestionTitle;
+            }
         }
 
         // GET api/values/5

@@ -190,7 +190,6 @@
     <Compile Include="Core\DI\DIContainer.cs" />
     <Compile Include="Core\DI\DIRegistration.cs" />
     <Compile Include="Core\DI\IDIContainer.cs" />
-    <Compile Include="Core\ExceptionHandler\UnhandledExceptionHandler.cs" />
     <Compile Include="Core\Logging\HandledExceptionLogger.cs" />
     <Compile Include="Core\Logging\UnHandledExceptionLogger.cs" />
     <Compile Include="Global.asax.cs">
@@ -228,6 +227,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Core\ExceptionHandler\" />
+    <Folder Include="Core\Helpers\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
