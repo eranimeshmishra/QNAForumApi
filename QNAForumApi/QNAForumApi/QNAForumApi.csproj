@@ -192,6 +192,8 @@
     <Compile Include="Core\DI\IDIContainer.cs" />
     <Compile Include="Core\Logging\HandledExceptionLogger.cs" />
     <Compile Include="Core\Logging\UnHandledExceptionLogger.cs" />
+    <Compile Include="Core\Modules\BaseModule.cs" />
+    <Compile Include="Core\Modules\SampleModule.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

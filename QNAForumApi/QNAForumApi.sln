@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QNAForum.Data", "QNAForum.D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QNAForum.Core", "QNAForum.Core\QNAForum.Core.csproj", "{6EB6B2F9-8919-41CF-A4F0-7419A72B406A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QNAForum.Caching", "QNAForum.Caching\QNAForum.Caching.csproj", "{9C1CB598-B74B-4B56-9356-70A6B7A982B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{6EB6B2F9-8919-41CF-A4F0-7419A72B406A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EB6B2F9-8919-41CF-A4F0-7419A72B406A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EB6B2F9-8919-41CF-A4F0-7419A72B406A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C1CB598-B74B-4B56-9356-70A6B7A982B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C1CB598-B74B-4B56-9356-70A6B7A982B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C1CB598-B74B-4B56-9356-70A6B7A982B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C1CB598-B74B-4B56-9356-70A6B7A982B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
