@@ -72,8 +72,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CacheConfiguration.cs" />
+    <Compile Include="CacheManager.cs" />
     <Compile Include="ICacheConnectionManager.cs" />
     <Compile Include="ICacheManager.cs" />
+    <Compile Include="RedisCacheManager.cs" />
     <Compile Include="RedisConnectionManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

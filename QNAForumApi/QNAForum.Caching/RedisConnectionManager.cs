@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Configuration;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using StackExchange.Redis;
@@ -20,6 +21,8 @@ namespace QNAForum.Caching
         private readonly string RedisConnectionString = "RedisConnectionString";
         private ConnectionMultiplexer _redisConnection;
         private ConfigurationOptions _configurationOptions;
+
+        public RedisConnectionStatus RedisConnectionStatus => throw new NotImplementedException();
 
         public void Connect()
         {
@@ -41,9 +44,33 @@ namespace QNAForum.Caching
         {
             return ConfigurationManager.ConnectionStrings[RedisConnectionString].ConnectionString;
         }
+
+
+        public IDatabase GetDatabase()
+        {
+            return _redisConnection.GetDatabase();
+        }
+
+        public EndPoint[] GetEndPoints()
+        {
+            return _redisConnection.GetEndPoints();
+        }
+
+        public IServer GetServer(EndPoint endPoint)
+        {
+            return _redisConnection.GetServer(endPoint);
+        }
+
+        public void Dispose()
+        {
+            if (_redisConnection != null)
+            {
+                _redisConnection.Dispose();
+            }
+        }
     }
 
-    internal class RedisConnectionStatus
+    public class RedisConnectionStatus
     {
         public Connection.Status Status;
     }
