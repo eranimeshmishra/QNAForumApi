@@ -43,6 +43,7 @@
       <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.Linq" />
     <Reference Include="System.Xml.Linq" />
@@ -54,6 +55,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="DataAccess\ADO.Net\AbstractDao.cs" />
+    <Compile Include="DataAccess\ADO.Net\IQNAForumDBContext.cs" />
+    <Compile Include="DataAccess\ADO.Net\QNAForumDBContext.cs" />
     <Compile Include="Data\BaseModel.cs" />
     <Compile Include="Data\GenericRepository.cs" />
     <Compile Include="Data\IConnectionFactory.cs" />
