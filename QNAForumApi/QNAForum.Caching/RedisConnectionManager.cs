@@ -72,7 +72,7 @@ namespace QNAForum.Caching
 
     public class RedisConnectionStatus
     {
-        public Connection.Status Status;
+        Connection.Status Status;
     }
 
     internal class Connection
